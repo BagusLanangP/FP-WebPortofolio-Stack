@@ -207,6 +207,10 @@ header{
 
 /* Home */
 
+    .profile-me{
+        width: 150px;
+    }
+
     .home{
         padding-top: var(--mb-8);
     }
@@ -302,6 +306,10 @@ header{
 /* Home End */
 
 /* About Start */
+
+.img-icon{
+    width: 60px;
+}
 
 .accordion{
     margin-top: var(--mb-4);

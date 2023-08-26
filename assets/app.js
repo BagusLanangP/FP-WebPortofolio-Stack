@@ -47,7 +47,7 @@ const fetchImg = async () => {
     const response = await fetch(endpoint);
     const data = await response.json();
     ProfileImg = data.results;
-    fetchComments(); // Fetch comments after fetching images
+    fetchComments(); 
 };
 
 const fetchComments = async () => {
@@ -99,6 +99,5 @@ nextCommentBtn.addEventListener('click', () => {
 });
 
 fetchImg(); // Fetch images and then fetch comments
-
 
 
