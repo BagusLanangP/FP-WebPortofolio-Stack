@@ -523,6 +523,9 @@ header{
 
 /* RESPONSIVE */
 @media screen and (max-width: 767px){
+    .Me-img{
+        margin-bottom: 30px;
+    }
     .view-project{
         margin-bottom: var(--mb-2);
     }

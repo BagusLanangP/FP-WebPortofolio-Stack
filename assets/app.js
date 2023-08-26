@@ -98,6 +98,6 @@ nextCommentBtn.addEventListener('click', () => {
     showComment();
 });
 
-fetchImg(); // Fetch images and then fetch comments
+fetchImg(); 
 
 
