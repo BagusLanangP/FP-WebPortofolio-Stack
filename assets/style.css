@@ -173,7 +173,7 @@ nav{
     max-height: 20rem;
 }
 
-ul li .nav-link::after{
+/* ul li .nav-link::after{
     content: '';
     width: 0;
     height: 3px;
@@ -183,11 +183,11 @@ ul li .nav-link::after{
     transform: translateX(-50%);
     background: var(--fiveth-color);
     transition: width 0.4s;
-}
+} */
 
-ul li a.nav-link:hover::after{
+/* ul li a.nav-link:hover::after{
     width: 100%;
-}
+} */
 
 
 

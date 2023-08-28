@@ -55,7 +55,7 @@ const fetchComments = async () => {
     const response = await fetch(endpoint);
     const data = await response.json();
     commentsData = data.comments;
-    showPict();
+    // showPict();
 };
 
 const showPict = () => {
